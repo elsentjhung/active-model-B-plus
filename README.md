@@ -1,12 +1,12 @@
 ## Numerical Implemantation of Active Model B+
 
-This contains the source codes used in the numerical simulation of Active Model B+, as described in this paper [Tjhung, Nardini, and Cates, PRX (2018)].
+This contains the source code used in the numerical simulation of Active Model B+, as described in this paper [Tjhung, Nardini, and Cates, PRX (2018)].
 
 List of files:
-* `./source_codes/active_model_B_plus.c` = main source file
-* `./source_codes/system_parameters.h` = this file contains all the parameters in the model
-* `./source_codes/mathematical_functions.h` = this file contains implementation of numerical derivatives
-* `./source_codes/animate.sh` = script file to generate a movie (requires gnuplot and fffmpeg)
+* `./source_code/active_model_B_plus.c` = main source file
+* `./source_code/system_parameters.h` = this file contains all the parameters in the model
+* `./source_code/mathematical_functions.h` = this file contains implementation of numerical derivatives
+* `./source_code/animate.sh` = script file to generate a movie (requires gnuplot and fffmpeg)
 * `./output/output.mp4` = example of the output
 
 Also check this link [Discretization in Active Model B+] for the numerical discretization used in our codes.
