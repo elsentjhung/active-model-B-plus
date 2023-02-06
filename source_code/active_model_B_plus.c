@@ -106,7 +106,7 @@ void calculate_dphi(void) {
 
             // active currents
             Jxact[i][j] = zeta*laplacianphi[i][j]*dphidx[i][j] - diff_x(muact,i,j);
-            Jyact[i][j] = zeta*laplacianphi[i][j]*dphidy[i][j] - diff_x(muact,i,j);
+            Jyact[i][j] = zeta*laplacianphi[i][j]*dphidy[i][j] - diff_y(muact,i,j);
 
             // total current
             Jx[i][j] = Jxeq[i][j] + Jxact[i][j] + Lambdax[i][j];
